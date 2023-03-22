@@ -3,7 +3,7 @@ class HatchetAdmin < Formula
     version "v0.1.0-alpha.1"
 
     url "https://github.com/hatchet-dev/hatchet/releases/download/v0.1.0-alpha.1/hatchet-admin_v0.1.0-alpha.1_Darwin_x86_64.zip" 
-    sha256 "22350c6a799729818dc6ea73bed70506e653838f6ac1166d013818122f57c075"
+    sha256 "5f936e2a1ad426eb240340475608ca84e6ad1c4c8b316910b12e13cea65352ea"
           
     on_macos do
       def install
