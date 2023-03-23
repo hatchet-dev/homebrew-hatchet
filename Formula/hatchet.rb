@@ -6,7 +6,7 @@ class Hatchet < Formula
     version "v0.1.0-alpha.1"
 
     url "https://github.com/hatchet-dev/hatchet/releases/download/v0.1.0-alpha.1/hatchet_v0.1.0-alpha.1_Darwin_x86_64.zip" 
-    sha256 "5295e6dbf6c62dc88577893050236df633280ed67e3a7b4e2438ab9ebcec8f2b"
+    sha256 "ff8ee089f5175485fa62ef8813d23b302f968b688d762aa8bbefbed31a2f5b03"
           
     on_macos do
       def install

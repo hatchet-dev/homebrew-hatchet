@@ -3,7 +3,7 @@ class HatchetServer < Formula
     version "v0.1.0-alpha.1"
 
     url "https://github.com/hatchet-dev/hatchet/releases/download/v0.1.0-alpha.1/hatchet-server_v0.1.0-alpha.1_Darwin_x86_64.zip" 
-    sha256 "8f5102ea939514d789fbbef99fd0312302059a7acbf7cf15c57c8a1f53d4d072"
+    sha256 "3aa5d5850cd5cd88755454c391c3204770772e43a7d2b17116647c37fc104f88"
           
     on_macos do
       def install
