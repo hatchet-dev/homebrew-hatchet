@@ -14,11 +14,11 @@ cask "hatchet" do
   on_macos do
     on_intel do
       url "https://github.com/hatchet-dev/hatchet/releases/download/v#{version}/hatchet_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "0a0e9c3f0f4de3b5c9645f4fdccb0e223a08d54690765a60cc74bd130d021b57"
+      sha256 "b3878a904d2aa42519913702f20476458a5f9877f2d97f50aeecff26237144b7"
     end
     on_arm do
       url "https://github.com/hatchet-dev/hatchet/releases/download/v#{version}/hatchet_#{version}_Darwin_arm64.tar.gz"
-      sha256 "6b7e3cd1c375851de301d62a55d6804bc19c38b4e303039eb91b2fcc34f8406c"
+      sha256 "ce4e7f37d03803530cb696985bd38ba32437813d537e0723042fa64b6aff2fb5"
     end
   end
 
