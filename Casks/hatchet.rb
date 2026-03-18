@@ -3,7 +3,7 @@ cask "hatchet" do
   name "hatchet"
   desc "Command-line interface for Hatchet workflow orchestration"
   homepage "https://hatchet.run"
-  version "0.80.5"
+  version "0.81.0-alpha.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "hatchet" do
   on_macos do
     on_intel do
       url "https://github.com/hatchet-dev/hatchet/releases/download/v#{version}/hatchet_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "462367cfbd28b034ee713dbbc12e0539e2198eae7fe68e80282f8c7eb2e9de90"
+      sha256 "0addf977d390f2ea25dcfa24ed757bd58bbcdab674f49946451beeef16cc8043"
     end
     on_arm do
       url "https://github.com/hatchet-dev/hatchet/releases/download/v#{version}/hatchet_#{version}_Darwin_arm64.tar.gz"
-      sha256 "c70d5778c4bf1fca6d57010050c46213dc37166a78194ed71ee52937f6d7e96a"
+      sha256 "57dbbda88bbd024d5f643f40455c1a9218ee0b919482edd3610696199cfabe83"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/hatchet-dev/hatchet/releases/download/v#{version}/hatchet_#{version}_Linux_x86_64.tar.gz"
-      sha256 "6593d71033fcc45dce3ac71d2b5ef202ed40b6c83f59b9ba501eff1bc95af11c"
+      sha256 "12ba39fcb85f4aab6904e8eeaf64dfe5bfdcc29feb23423cdd1da0731acd8909"
     end
     on_arm do
       url "https://github.com/hatchet-dev/hatchet/releases/download/v#{version}/hatchet_#{version}_Linux_arm64.tar.gz"
-      sha256 "8056d9539c125a0b0a409e3727db5a2b3781afba1130a6b5d4e599fbf8bcfdd7"
+      sha256 "db5b77f78e22f7c4f7fcb4c521b288de4d992c7df1b434f42f1f50bb55915677"
     end
   end
 
